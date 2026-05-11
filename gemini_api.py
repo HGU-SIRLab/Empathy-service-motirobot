@@ -43,7 +43,7 @@ from pynput import keyboard
 import google.generativeai as genai
 
 PROFILE_DB_FILE = "user_profiles.json"
-MODEL_NAME = _get_env("MODEL_NAME", "gemini-2.5-flash-lite")
+MODEL_NAME = _get_env("MODEL_NAME", "gemini-3.1-flash-lite")
 GREETING_TEXT = _get_env("GREETING_TEXT", "안녕하세요! 모티입니다.")
 FAREWELL_TEXT = _get_env("FAREWELL_TEXT", "도움이 되었길 바라요. 언제든 다시 불러주세요.")
 ENABLE_GREETING = _get_env("ENABLE_GREETING", "1") not in ("0", "false", "False")
